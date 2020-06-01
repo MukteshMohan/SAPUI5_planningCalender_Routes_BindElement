@@ -1,0 +1,8 @@
+<mvc:View controllerName="opensap.movies.controller.NotFound" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<MessagePage title="Bummer!" text="details not found" icon="sap-icon://video" id="page" description="" showNavButton="true"
+		navButtonPress=".onLinkPressed">
+		<customDescription>
+			<Link id="link" text="Home" press=".onLinkPressed"/>
+		</customDescription>
+	</MessagePage>
+</mvc:View>
